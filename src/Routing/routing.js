@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         {path:"salary", element:<MySalaryComp/>},
     ]},
 
-    //5.Wild-Card routing
+    //5.Wild-Card routing it must be last routing
     {path:"*", element:<PageNotFoundComp/>}
 
 ])
